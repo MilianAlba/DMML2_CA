@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="add apples to plantville&#10;add tomatos to test plantdoc" />
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="add apples to plantville&#10;add tomatos to test plantdoc">
+      <change afterPath="$PROJECT_DIR$/DMML2_project_hyperparameters.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DMML2_project_Adagrad_pepper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DMML2_project_Adagrad_pepper.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DMML2_project_grayscale_pepper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DMML2_project_grayscale_pepper.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DMML2_project_mobilenet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DMML2_project_mobilenet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DMML2_project_pepper_hyperparameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DMML2_project_pepper_hyperparameters.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DMML2_projectlocal.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DMML2_projectlocal.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,18 +29,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/data/SEPOL/03.ThirdSem/DMML2/LAB2/annTut.py&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -62,6 +71,7 @@
       <workItem from="1659280106958" duration="110000" />
       <workItem from="1659284238448" duration="36000" />
       <workItem from="1659284291729" duration="5000" />
+      <workItem from="1659337768724" duration="3917000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="add apples to plantville&#10;add tomatos to test plantdoc" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CIXh68ilTd8Zm4j2hxhMhOtuS4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/data/SEPOL/03.ThirdSem/DMML2/LAB2/annTut.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="" />
+      <created>1658491189367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658491189367</updated>
+      <workItem from="1658491190753" duration="163000" />
+      <workItem from="1658583055034" duration="1961000" />
+      <workItem from="1658586961563" duration="178000" />
+      <workItem from="1658660151625" duration="11000" />
+      <workItem from="1658757791601" duration="5923000" />
+      <workItem from="1658819829690" duration="1329000" />
+      <workItem from="1658862297530" duration="1923000" />
+      <workItem from="1658912045541" duration="83000" />
+      <workItem from="1659116233291" duration="734000" />
+      <workItem from="1659128409778" duration="833000" />
+      <workItem from="1659171000291" duration="1227000" />
+      <workItem from="1659276773952" duration="1071000" />
+      <workItem from="1659278242889" duration="1290000" />
+      <workItem from="1659280106958" duration="110000" />
+      <workItem from="1659284238448" duration="36000" />
+      <workItem from="1659284291729" duration="5000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1658491256272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658491256272</updated>
+    </task>
+    <task id="LOCAL-00002" summary="load data plantdoc">
+      <created>1658583096782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658583096783</updated>
+    </task>
+    <task id="LOCAL-00003" summary="load data plantdoc">
+      <created>1658583157665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658583157666</updated>
+    </task>
+    <task id="LOCAL-00004" summary="load data plantville">
+      <created>1658585327473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658585327473</updated>
+    </task>
+    <task id="LOCAL-00005" summary="load data plantville2">
+      <created>1658585426990</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658585426990</updated>
+    </task>
+    <task id="LOCAL-00006" summary="check the jupyter notes is working">
+      <created>1658586083493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658586083493</updated>
+    </task>
+    <task id="LOCAL-00007" summary="upload image test">
+      <created>1658587119828</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658587119828</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Project from local source, trainabble, 10 epochs">
+      <created>1659117157225</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659117157225</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Project from local source, trainabble, 10 epochs">
+      <created>1659277841730</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659277841730</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add apples to plantville&#10;add tomatos to test plantdoc">
+      <created>1659279533222</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659279533222</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="load data plantdoc" />
+    <MESSAGE value="load data plantville" />
+    <MESSAGE value="load data plantville2" />
+    <MESSAGE value="check the jupyter notes is working" />
+    <MESSAGE value="upload image test" />
+    <MESSAGE value="Project from local source, trainabble, 10 epochs" />
+    <MESSAGE value="add apples to plantville&#10;add tomatos to test plantdoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="add apples to plantville&#10;add tomatos to test plantdoc" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA/DMML2_project.ipynb</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA/DMML2_augment_images.ipynb</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

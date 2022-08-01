@@ -1,0 +1,22 @@
+Index: plantOutdoors.ipynb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n \"nbformat\": 4,\n \"nbformat_minor\": 0,\n \"metadata\": {\n  \"colab\": {\n   \"name\": \"plantOutdoors.ipynb\",\n   \"provenance\": [],\n   \"include_colab_link\": true\n  },\n  \"kernelspec\": {\n   \"name\": \"python3\",\n   \"display_name\": \"Python 3\"\n  },\n  \"language_info\": {\n   \"name\": \"python\"\n  }\n },\n \"cells\": [\n  {\n   \"cell_type\": \"markdown\",\n   \"metadata\": {\n    \"id\": \"view-in-github\",\n    \"colab_type\": \"text\"\n   },\n   \"source\": [\n    \"<a href=\\\"https://colab.research.google.com/github/MilianAlba/DMML2_CA/blob/main/plantOutdoors.ipynb\\\" target=\\\"_parent\\\"><img src=\\\"https://colab.research.google.com/assets/colab-badge.svg\\\" alt=\\\"Open In Colab\\\"/></a>\"\n   ]\n  },\n  {\n   \"cell_type\": \"markdown\",\n   \"source\": [\n    \"The dataset is located on https://github.com/pratikkayal/PlantDoc-Dataset\"\n   ],\n   \"metadata\": {\n    \"collapsed\": false,\n    \"pycharm\": {\n     \"name\": \"#%% md\\n\"\n    }\n   }\n  },\n  {\n   \"cell_type\": \"markdown\",\n   \"source\": [],\n   \"metadata\": {\n    \"collapsed\": false,\n    \"pycharm\": {\n     \"name\": \"#%% md\\n\"\n    }\n   }\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 2,\n   \"outputs\": [],\n   \"source\": [\n    \"#import tensorflow as tf\\n\",\n    \"from PIL import Image\\n\",\n    \"import glob\\n\",\n    \"# from tensorflow.keras import layers, models\\n\",\n    \"import matplotlib.pyplot as plt\"\n   ],\n   \"metadata\": {\n    \"collapsed\": false,\n    \"pycharm\": {\n     \"name\": \"#%%\\n\"\n    }\n   }\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 5,\n   \"outputs\": [],\n   \"source\": [\n    \"\\n\",\n    \"image_list = []\\n\",\n    \"for filename in glob.glob('plantville/Pepper__bell___healthy/*.jpg'):\\n\",\n    \"    im=Image.open(filename)\\n\",\n    \"    image_list.append(im)\"\n   ],\n   \"metadata\": {\n    \"collapsed\": false,\n    \"pycharm\": {\n     \"name\": \"#%%\\n\"\n    }\n   }\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 6,\n   \"outputs\": [\n    {\n     \"name\": \"stdout\",\n     \"output_type\": \"stream\",\n     \"text\": [\n      \"[<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=256x256 at 0x7F57B1F84760>]\\n\"\n     ]\n    }\n   ],\n   \"source\": [\n    \"print(image_list)\"\n   ],\n   \"metadata\": {\n    \"collapsed\": false,\n    \"pycharm\": {\n     \"name\": \"#%%\\n\"\n    }\n   }\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": null,\n   \"outputs\": [],\n   \"source\": [],\n   \"metadata\": {\n    \"collapsed\": false,\n    \"pycharm\": {\n     \"name\": \"#%%\\n\"\n    }\n   }\n  },\n  {\n   \"cell_type\": \"code\",\n   \"execution_count\": 4,\n   \"outputs\": [],\n   \"source\": [\n    \"\\n\",\n    \"image_list = []\\n\",\n    \"for filename in glob.glob('plantville/*.jpg'):\\n\",\n    \"    im=Image.open(filename)\\n\",\n    \"    image_list.append(im)\"\n   ],\n   \"metadata\": {\n    \"pycharm\": {\n     \"name\": \"#%%\\n\"\n    },\n    \"id\": \"xGxFBntnaV0E\"\n   }\n  }\n ]\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/plantOutdoors.ipynb b/plantOutdoors.ipynb
+--- a/plantOutdoors.ipynb	(revision 1c18d261b550fb59fea6adb93ae02bb4afd0eb17)
++++ b/plantOutdoors.ipynb	(date 1658660162316)
+@@ -20,7 +20,10 @@
+    "cell_type": "markdown",
+    "metadata": {
+     "id": "view-in-github",
+-    "colab_type": "text"
++    "colab_type": "text",
++    "pycharm": {
++     "name": "#%% md\n"
++    }
+    },
+    "source": [
+     "<a href=\"https://colab.research.google.com/github/MilianAlba/DMML2_CA/blob/main/plantOutdoors.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"

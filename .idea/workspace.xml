@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="add a script with a sample sized 10% of the training to autotune">
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="remove hyperlinks from the colab books">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2022,_15_04_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2022__15_04__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DMML2_project_hyperparameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DMML2_project_hyperparameters.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hyperparameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hyperparameters.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/DMML2_CA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +77,11 @@
       <workItem from="1659284291729" duration="5000" />
       <workItem from="1659337768724" duration="4839000" />
       <workItem from="1659346614118" duration="6000" />
+      <workItem from="1659358634984" duration="144000" />
+      <workItem from="1659360954648" duration="1148000" />
+      <workItem from="1659364570093" duration="1312000" />
+      <workItem from="1659433196125" duration="1121000" />
+      <workItem from="1659517449288" duration="2396000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>
@@ -145,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659343724934</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="remove hyperlinks from the colab books">
+      <created>1659358759964</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659358759964</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +194,8 @@
     <MESSAGE value="Project from local source, trainabble, 10 epochs" />
     <MESSAGE value="add apples to plantville&#10;add tomatos to test plantdoc" />
     <MESSAGE value="add a script with a sample sized 10% of the training to autotune" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a script with a sample sized 10% of the training to autotune" />
+    <MESSAGE value="remove hyperlinks from the colab books" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove hyperlinks from the colab books" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="Plantdoc on DMM:2_project_hype">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DMML2_project_hyperparameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DMML2_project_hyperparameters.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="Hyperparameters include drop now, and 6 epochs&#10;removed potato folder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +106,7 @@
       <workItem from="1659607631734" duration="14000" />
       <workItem from="1659624431300" duration="499000" />
       <workItem from="1659690262211" duration="76000" />
+      <workItem from="1659706166788" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>
@@ -201,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659533560840</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Hyperparameters include drop now, and 6 epochs&#10;removed potato folder">
+      <created>1659706377711</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659706377711</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +235,8 @@
     <MESSAGE value="add a script with a sample sized 10% of the training to autotune" />
     <MESSAGE value="remove hyperlinks from the colab books" />
     <MESSAGE value="Plantdoc on DMM:2_project_hype" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plantdoc on DMM:2_project_hype" />
+    <MESSAGE value="Hyperparameters include drop now, and 6 epochs&#10;removed potato folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hyperparameters include drop now, and 6 epochs&#10;removed potato folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

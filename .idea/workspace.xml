@@ -4,23 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="remove hyperlinks from the colab books">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2022,_15_04_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2022__15_04__Changes_.xml" beforeDir="false" />
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="Plantdoc on DMM:2_project_hype">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DMML2_project_hyperparameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DMML2_project_hyperparameters.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hyperparameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hyperparameters.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/DMML2_CA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlanDoc/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +36,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA/modelsrept.py&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -50,6 +48,30 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="modelsrept" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DMML2_CA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modelsrept.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,7 +103,12 @@
       <workItem from="1659360954648" duration="1148000" />
       <workItem from="1659364570093" duration="1312000" />
       <workItem from="1659433196125" duration="1121000" />
-      <workItem from="1659517449288" duration="2396000" />
+      <workItem from="1659517449288" duration="2489000" />
+      <workItem from="1659533821955" duration="4000" />
+      <workItem from="1659600834642" duration="3026000" />
+      <workItem from="1659607631734" duration="14000" />
+      <workItem from="1659624431300" duration="499000" />
+      <workItem from="1659690262211" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>
@@ -167,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659358759964</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Plantdoc on DMM:2_project_hype">
+      <created>1659533560840</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659533560840</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +229,8 @@
     <MESSAGE value="add apples to plantville&#10;add tomatos to test plantdoc" />
     <MESSAGE value="add a script with a sample sized 10% of the training to autotune" />
     <MESSAGE value="remove hyperlinks from the colab books" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove hyperlinks from the colab books" />
+    <MESSAGE value="Plantdoc on DMM:2_project_hype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plantdoc on DMM:2_project_hype" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -205,12 +240,10 @@
           <line>3</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook:///media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA/DMML2_augment_images.ipynb</url>
-          <line>3</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DMML2_CA$modelsrept.coverage" NAME="modelsrept Coverage Results" MODIFIED="1659601548194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

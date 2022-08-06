@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="Hyperparameters include drop now, and 6 epochs&#10;removed potato folder">
-      <change afterPath="$PROJECT_DIR$/HPMobileNetAdagrad.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HPMobileNetAdam.ipynb" afterDir="false" />
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets">
+      <change afterPath="$PROJECT_DIR$/HPMobileNetAdagradOut.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HPMobileNetAdamOut.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HPResNetAdagradOut.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HPResNetAdamOut.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hyperparameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HPResNetAdam.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DMML2_hyperparameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DMML2_hyperparameters.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HPMobileNetAdagrad.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HPMobileNetAdagrad.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HPMobileNetAdam.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HPMobileNetAdam.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HPResNetAdagrad.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HPResNetAdagrad.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HPResNetAdam.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HPResNetAdam.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +119,7 @@
       <workItem from="1659690262211" duration="76000" />
       <workItem from="1659706166788" duration="343000" />
       <workItem from="1659706709678" duration="113000" />
-      <workItem from="1659778272051" duration="3164000" />
+      <workItem from="1659778272051" duration="5140000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>
@@ -220,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659706477967</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets">
+      <created>1659788093565</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659788093565</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +263,8 @@
     <MESSAGE value="remove hyperlinks from the colab books" />
     <MESSAGE value="Plantdoc on DMM:2_project_hype" />
     <MESSAGE value="Hyperparameters include drop now, and 6 epochs&#10;removed potato folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hyperparameters include drop now, and 6 epochs&#10;removed potato folder" />
+    <MESSAGE value="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

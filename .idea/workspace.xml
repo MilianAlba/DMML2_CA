@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets Otutdoor">
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="combined hp file for Adagrad MobileNet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPMobileNetAdagrad.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HPMobileNetAdagrad.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPMobileNetAdam.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HPMobileNetAdam.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,17 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -32,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -113,7 +122,7 @@
       <workItem from="1659706166788" duration="343000" />
       <workItem from="1659706709678" duration="113000" />
       <workItem from="1659778272051" duration="8801000" />
-      <workItem from="1659855955576" duration="1694000" />
+      <workItem from="1659855955576" duration="10569000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>
@@ -234,7 +243,56 @@
       <option name="project" value="LOCAL" />
       <updated>1659789989991</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="adjusted the number of epochs in the tuner to 6 and factor to default 3.&#10;changed the message at the end to include the drop rate">
+      <created>1659859000420</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659859000420</updated>
+    </task>
+    <task id="LOCAL-00019" summary="adjusted the number of epochs in the tuner to 6 and factor to default 3.&#10;changed the message at the end to include the drop rate">
+      <created>1659859273588</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659859273588</updated>
+    </task>
+    <task id="LOCAL-00020" summary="adjusted the number of epochs in the tuner to 6 and factor to default 3.&#10;changed the message at the end to include the drop rate">
+      <created>1659875610961</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659875610961</updated>
+    </task>
+    <task id="LOCAL-00021" summary="adjusted the number of epochs in the tuner to 6 and factor to default 3.&#10;changed the message at the end to include the drop rate">
+      <created>1659878475014</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659878475014</updated>
+    </task>
+    <task id="LOCAL-00022" summary="adjusted the number of epochs in the tuner to 6 and factor to default 3.&#10;changed the message at the end to include the drop rate">
+      <created>1659878625285</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659878625285</updated>
+    </task>
+    <task id="LOCAL-00023" summary="combined hp file for Adagrad MobileNet">
+      <created>1659882245865</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659882245865</updated>
+    </task>
+    <task id="LOCAL-00024" summary="combined hp file for Adagrad MobileNet">
+      <created>1659882333916</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659882333916</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +324,9 @@
     <MESSAGE value="Hyperparameters include drop now, and 6 epochs&#10;removed potato folder" />
     <MESSAGE value="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets" />
     <MESSAGE value="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets Otutdoor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets Otutdoor" />
+    <MESSAGE value="adjusted the number of epochs in the tuner to 6 and factor to default 3.&#10;changed the message at the end to include the drop rate" />
+    <MESSAGE value="combined hp file for Adagrad MobileNet" />
+    <option name="LAST_COMMIT_MESSAGE" value="combined hp file for Adagrad MobileNet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

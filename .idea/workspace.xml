@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets">
-      <change afterPath="$PROJECT_DIR$/HPMobileNetAdagradOut.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HPMobileNetAdamOut.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HPResNetAdagradOut.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HPResNetAdamOut.ipynb" afterDir="false" />
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets Otutdoor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DMML2_hyperparameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DMML2_hyperparameters.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HPMobileNetAdagrad.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HPMobileNetAdagrad.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HPMobileNetAdam.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HPMobileNetAdam.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPResNetAdagrad.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HPResNetAdagrad.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPResNetAdam.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HPResNetAdam.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -119,7 +112,8 @@
       <workItem from="1659690262211" duration="76000" />
       <workItem from="1659706166788" duration="343000" />
       <workItem from="1659706709678" duration="113000" />
-      <workItem from="1659778272051" duration="5140000" />
+      <workItem from="1659778272051" duration="8801000" />
+      <workItem from="1659855955576" duration="1694000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>
@@ -233,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659788093565</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets Otutdoor">
+      <created>1659789989991</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659789989991</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +265,8 @@
     <MESSAGE value="Plantdoc on DMM:2_project_hype" />
     <MESSAGE value="Hyperparameters include drop now, and 6 epochs&#10;removed potato folder" />
     <MESSAGE value="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets" />
+    <MESSAGE value="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets Otutdoor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files to choose the hp using Adam/Adagrad as optimizers and MobileNet/ResNet as convnets Otutdoor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

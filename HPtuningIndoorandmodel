@@ -92,6 +92,8 @@ Trainable params: 1,878,093
 Non-trainable params: 396,544
 _________________________________________________________________1
 
+
+
 test dataset results
 loss : 0.051
 tp : 312.0

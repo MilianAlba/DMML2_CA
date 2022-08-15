@@ -95,12 +95,12 @@ _________________________________________________________________1
 
 
 test dataset results
-loss : 0.051
-tp : 312.0
-fp : 6.0
-tn : 3834.0
-fn : 8.0
-accuracy : 0.975
-precision : 0.981
-recall : 0.975
-auc : 1.0
+loss : 0.073
+tp : 1255.0
+fp : 26.0
+tn : 15430.0
+fn : 33.0
+accuracy : 0.977
+precision : 0.98
+recall : 0.974
+auc : 0.999

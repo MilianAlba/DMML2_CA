@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="Model for the combined data set, parameters are 0.2 drop rate, 0.0001 Learning rate, Optimizer Adam and TF MobileNet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CombinedModelBuilt.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CombinedModelBuilt.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IndoorModelBuilt.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/IndoorModelBuilt.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="finalized models for combined and indoor models with the right param and charts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,6 +131,7 @@
       <workItem from="1660473895758" duration="832000" />
       <workItem from="1660475517343" duration="1661000" />
       <workItem from="1660551071383" duration="640000" />
+      <workItem from="1660555483351" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>
@@ -360,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660475691917</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="finalized models for combined and indoor models with the right param and charts">
+      <created>1660555705275</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1660555705276</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +401,8 @@
     <MESSAGE value="saved Indoormodel and results textfile" />
     <MESSAGE value="folders for the combined process, one folder contains a subset of Plantville train(0.8) and the augmented, the other is Plantville test" />
     <MESSAGE value="Model for the combined data set, parameters are 0.2 drop rate, 0.0001 Learning rate, Optimizer Adam and TF MobileNet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Model for the combined data set, parameters are 0.2 drop rate, 0.0001 Learning rate, Optimizer Adam and TF MobileNet" />
+    <MESSAGE value="finalized models for combined and indoor models with the right param and charts" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalized models for combined and indoor models with the right param and charts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

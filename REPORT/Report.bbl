@@ -27,4 +27,21 @@ Z.~Rezaei and H.~Ebrahimpour-Komleh, ``Prediction and detection of car
   Conference on Pattern Recognition and Image Analysis (IPRIA)}.\hskip 1em plus
   0.5em minus 0.4em\relax IEEE, 2021, pp. 1--9.
 
+\bibitem{kaggledatasetPlantville}
+\BIBentryALTinterwordspacing
+A.~Ali. (2022) Plantvillage dataset in kaggle. [Online]. Available:
+  \url{https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset}
+\BIBentrySTDinterwordspacing
+
+\bibitem{kaggledatasetPlantDoc}
+\BIBentryALTinterwordspacing
+A.~H. Uddin. (2022) Plant doc dataset in kaggle. [Online]. Available:
+  \url{https://www.kaggle.com/datasets/abdulhasibuddin/plant-doc-dataset}
+\BIBentrySTDinterwordspacing
+
+\bibitem{saleem2020plant}
+M.~H. Saleem, J.~Potgieter, and K.~M. Arif, ``Plant disease classification: A
+  comparative evaluation of convolutional neural networks and deep learning
+  optimizers,'' \emph{Plants}, vol.~9, no.~10, p. 1319, 2020.
+
 \end{thebibliography}

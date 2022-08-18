@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="finalized models for combined and indoor models with the right param and charts" />
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="Report in Latex">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REPORT/Report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REPORT/Report.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.bbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REPORT/Report.blg" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.blg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REPORT/Report.log" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REPORT/Report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REPORT/Report.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REPORT/Report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REPORT/references.bib" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/references.bib" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,6 +142,11 @@
       <workItem from="1660475517343" duration="1661000" />
       <workItem from="1660551071383" duration="640000" />
       <workItem from="1660555483351" duration="244000" />
+      <workItem from="1660682993248" duration="628000" />
+      <workItem from="1660684872704" duration="234000" />
+      <workItem from="1660685842836" duration="245000" />
+      <workItem from="1660722190288" duration="12000" />
+      <workItem from="1660809383630" duration="3579000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>
@@ -364,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660555705276</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Report in Latex">
+      <created>1660683822886</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1660683822886</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +424,8 @@
     <MESSAGE value="folders for the combined process, one folder contains a subset of Plantville train(0.8) and the augmented, the other is Plantville test" />
     <MESSAGE value="Model for the combined data set, parameters are 0.2 drop rate, 0.0001 Learning rate, Optimizer Adam and TF MobileNet" />
     <MESSAGE value="finalized models for combined and indoor models with the right param and charts" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalized models for combined and indoor models with the right param and charts" />
+    <MESSAGE value="Report in Latex" />
+    <option name="LAST_COMMIT_MESSAGE" value="Report in Latex" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

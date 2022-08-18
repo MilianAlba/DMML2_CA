@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.7.26)  16 AUG 2022 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.7.26)  18 AUG 2022 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -255,6 +255,24 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 
 LaTeX Warning: Label `fig' multiply defined.
 
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
 )
 \openout1 = `Report.aux'.
 
@@ -296,39 +314,35 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
-1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-
-LaTeX Warning: Citation `rezaei2021prediction' on page 1 undefined on input lin
-e 80.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-<./images//CRISP_DM_no deployment.png, id=10, 183.5658pt x 174.6525pt>
-File: ./images//CRISP_DM_no deployment.png Graphic file (type png)
-<use ./images//CRISP_DM_no deployment.png>
-Package pdftex.def Info: ./images//CRISP_DM_no deployment.png  used on input li
-ne 86.
-(pdftex.def)             Requested size: 241.84842pt x 230.1076pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 107
-.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 107
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (3.00623pt too wide) in paragraph at lines 107--130
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<./images//CRISP_DM_no deployment.png, id=1, 183.5658pt x 174.6525pt>
+File: ./images//CRISP_DM_no deployment.png Graphic file (type png)
+<use ./images//CRISP_DM_no deployment.png>
+Package pdftex.def Info: ./images//CRISP_DM_no deployment.png  used on input li
+ne 92.
+(pdftex.def)             Requested size: 241.84842pt x 230.1076pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Overfull \hbox (3.00623pt too wide) in paragraph at lines 114--149
  [] 
  []
 
@@ -337,9 +351,61 @@ Overfull \hbox (3.00623pt too wide) in paragraph at lines 107--130
 File: ./images//ModelOutdoorsMobileNet.png Graphic file (type png)
 <use ./images//ModelOutdoorsMobileNet.png>
 Package pdftex.def Info: ./images//ModelOutdoorsMobileNet.png  used on input li
-ne 148.
+ne 175.
 (pdftex.def)             Requested size: 241.84842pt x 135.81107pt.
- [3 <./images//ModelOutdoorsMobileNet.png>] (./Report.bbl)
+<./images//ModelIndoorsMobileNetEpochsAccuracychart.png, id=16, 136.5903pt x 12
+8.6406pt>
+File: ./images//ModelIndoorsMobileNetEpochsAccuracychart.png Graphic file (type
+ png)
+<use ./images//ModelIndoorsMobileNetEpochsAccuracychart.png>
+Package pdftex.def Info: ./images//ModelIndoorsMobileNetEpochsAccuracychart.png
+  used on input line 182.
+(pdftex.def)             Requested size: 241.84842pt x 227.79198pt.
+<./images//ModelIndoorsMobileNetPrecRecchart.png, id=17, 135.1449pt x 129.1224p
+t>
+File: ./images//ModelIndoorsMobileNetPrecRecchart.png Graphic file (type png)
+<use ./images//ModelIndoorsMobileNetPrecRecchart.png>
+Package pdftex.def Info: ./images//ModelIndoorsMobileNetPrecRecchart.png  used 
+on input line 188.
+(pdftex.def)             Requested size: 241.84842pt x 231.07643pt.
+ [3 <./images//ModelOutdoorsMobileNet.png>]
+<./images//ModelOutdoorsMobileNetEpochsAccuracychart.png, id=21, 509.905pt x 49
+7.86pt>
+File: ./images//ModelOutdoorsMobileNetEpochsAccuracychart.png Graphic file (typ
+e png)
+<use ./images//ModelOutdoorsMobileNetEpochsAccuracychart.png>
+Package pdftex.def Info: ./images//ModelOutdoorsMobileNetEpochsAccuracychart.pn
+g  used on input line 203.
+(pdftex.def)             Requested size: 241.84842pt x 236.1365pt.
+<./images//ModelOutdoorsMobileNetOtherMetricschart.png, id=23, 509.905pt x 497.
+86pt>
+File: ./images//ModelOutdoorsMobileNetOtherMetricschart.png Graphic file (type 
+png)
+<use ./images//ModelOutdoorsMobileNetOtherMetricschart.png>
+Package pdftex.def Info: ./images//ModelOutdoorsMobileNetOtherMetricschart.png 
+ used on input line 209.
+(pdftex.def)             Requested size: 241.84842pt x 236.1365pt.
+ [4 <./images//ModelIndoorsMobileNetEpochsAccuracychart.png> <./images//ModelIn
+doorsMobileNetPrecRecchart.png> <./images//ModelOutdoorsMobileNetEpochsAccuracy
+chart.png>]
+<./images//ModelCombineAccCEntropy.png, id=28, 132.495pt x 129.3633pt>
+File: ./images//ModelCombineAccCEntropy.png Graphic file (type png)
+<use ./images//ModelCombineAccCEntropy.png>
+Package pdftex.def Info: ./images//ModelCombineAccCEntropy.png  used on input l
+ine 222.
+(pdftex.def)             Requested size: 241.84842pt x 236.15016pt.
+<./images//ModelCombinePrecisionRecall.png, id=29, 134.1813pt x 127.677pt>
+File: ./images//ModelCombinePrecisionRecall.png Graphic file (type png)
+<use ./images//ModelCombinePrecisionRecall.png>
+Package pdftex.def Info: ./images//ModelCombinePrecisionRecall.png  used on inp
+ut line 228.
+(pdftex.def)             Requested size: 241.84842pt x 230.13986pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./images//ModelOutdoorsMobileNetOtherMetricschart.png> <./images//ModelCom
+bineAccCEntropy.png> <./images//ModelCombinePrecisionRecall.png>] (./Report.bbl
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -351,31 +417,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] (./Report.aux)
-
-LaTeX Warning: There were undefined references.
-
+[6] (./Report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3971 strings out of 481134
- 58004 string characters out of 5913146
- 357513 words of memory out of 5000000
- 20884 multiletter control sequences out of 15000+600000
- 443026 words of font info for 97 fonts, out of 8000000 for 9000
+ 4014 strings out of 481134
+ 59899 string characters out of 5913146
+ 354354 words of memory out of 5000000
+ 20922 multiletter control sequences out of 15000+600000
+ 442973 words of font info for 101 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 68i,11n,74p,1547b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,12n,74p,1509b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (4 pages, 274785 bytes).
+Output written on Report.pdf (6 pages, 574288 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

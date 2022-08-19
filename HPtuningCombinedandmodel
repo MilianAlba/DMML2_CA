@@ -1,0 +1,113 @@
+MobileNetAdamCombined
+Best val_accuracy So Far: 0.903563916683197
+Total elapsed time: 01h 03m 29s
+INFO:tensorflow:Oracle triggered exit
+
+The hyperparameter search is complete. The optimal learning rate for the optimizer
+is 0.0001.
+
+
+The hyperparameter search is complete. The optimal drop rate for the optimizer
+is 0.2.
+
+ResNetAdamCombined
+Best val_accuracy So Far: 0.8556454181671143
+Total elapsed time: 04h 04m 53s
+INFO:tensorflow:Oracle triggered exit
+
+The hyperparameter search is complete. The optimal learning rate for the optimizer
+is 1e-05.
+
+
+The hyperparameter search is complete. The optimal drop rate for the optimizer
+is 0.1.
+
+MobileNetAdagradCombined
+Best val_accuracy So Far: 0.8724169135093689
+Total elapsed time: 00h 57m 05s
+INFO:tensorflow:Oracle triggered exit
+
+The hyperparameter search is complete. The optimal learning rate for the optimizer
+is 0.01.
+
+
+The hyperparameter search is complete. The optimal drop rate for the optimizer
+is 0.1.
+
+Model: "model" - pre fine tunning
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+                                                                 
+ tf.math.truediv (TFOpLambda  (None, 224, 224, 3)      0         
+ )                                                               
+                                                                 
+ tf.math.subtract (TFOpLambd  (None, 224, 224, 3)      0         
+ a)                                                              
+                                                                 
+ mobilenetv2_1.00_224 (Funct  (None, 7, 7, 1280)       2257984   
+ ional)                                                          
+                                                                 
+ global_average_pooling2d (G  (None, 1280)             0         
+ lobalAveragePooling2D)                                          
+                                                                 
+ dropout (Dropout)           (None, 1280)              0         
+                                                                 
+ dense (Dense)               (None, 13)                16653     
+                                                                 
+================================================================
+Total params: 2,274,637
+Trainable params: 16,653
+Non-trainable params: 2,257,984
+________________________________________________________________
+
+Model: "model" - fine tunning
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+                                                                 
+ tf.math.truediv (TFOpLambda  (None, 224, 224, 3)      0         
+ )                                                               
+                                                                 
+ tf.math.subtract (TFOpLambd  (None, 224, 224, 3)      0         
+ a)                                                              
+                                                                 
+ mobilenetv2_1.00_224 (Funct  (None, 7, 7, 1280)       2257984   
+ ional)                                                          
+                                                                 
+ global_average_pooling2d (G  (None, 1280)             0         
+ lobalAveragePooling2D)                                          
+                                                                 
+ dropout (Dropout)           (None, 1280)              0         
+                                                                 
+ dense (Dense)               (None, 13)                16653     
+                                                                 
+================================================================
+Total params: 2,274,637
+Trainable params: 1,878,093
+Non-trainable params: 396,544
+________________________________________________________________
+
+Results Indoor testing
+loss : 0.084
+tp : 783.0
+fp : 19.0
+tn : 9641.0
+fn : 22.0
+accuracy : 0.973
+precision : 0.976
+recall : 0.973
+auc : 0.998
+
+Results Outdoor testing
+loss : 7.71
+tp : 11.0
+fp : 99.0
+tn : 1341.0
+fn : 109.0
+accuracy : 0.092
+precision : 0.1
+recall : 0.092
+auc : 0.558

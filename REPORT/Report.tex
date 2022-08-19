@@ -184,16 +184,18 @@ The images are transformed into 224 x 224 pixels, to match with MobileNet requir
 \label{fig}
 \end{figure}
 
-\begin{figure}[htbp]
-\centerline{\includegraphics[width=8.5cm]{ModelIndoorsMobileNetPrecRecchart.png}}
-\caption{Model MobileNet v.2 with Adam Optimizer Indoor dataset for Precision and Recall.}
-\label{fig}
-\end{figure}
+%\begin{figure}[htbp]
+%\centerline{\includegraphics[width=8.5cm]{ModelIndoorsMobileNetPrecRecchart.png}}
+%\caption{Model MobileNet v.2 with Adam Optimizer Indoor dataset for Precision and Recall.}
+%\label{fig}
+%\end{figure}
 
 For this model the total number of parameters was again 2,274,637, but in this case 1,878,093 of these were trainable. e fine tuning epochs a big increase on the accuracy is observed, where on the epoch 12 the accuracy of the validation and the one from the training subset are similar at 97.4\%. For reference, in\cite{saleem2020plant} for classification of crop disease the authors carry out a comparison of deep learning architectures and optimisers. The best classification accuracy for the validation set was 99.81\% obtained using the Adam optimiser to train the Xception architecture. \
 Similar behaviour can be observed using the metrics Precision and Recall, when around the 11 or 12 epoch the validation and training subsets provide similar values. 
 
 \subsection{Model using the Outdoor images}
+%A convolutional neural network model was trained on the PlantVillage indoor laboratory images and tested on both the test dataset of indoor images and the test dataset of outdoor images. Another CNN model was trained on the Plant Doc outdoor images and tested on both the indoor and outdoor test datasets. The indoor laboratory images and outdoor images were merged into a combined training dataset and a model was trained on this dataset and tested on both the indoor and outdoor test datasets. An additional model was trained on the augmented Plant Doc outdoor images dataset and tested on both test datasets. The augmented outdoor images dataset was merged with the indoor laboratory images dataset and a model trained on the combined dataset and tested on both test datasets. (to edit)
+
 Applying the Hyperparameter tuning to the outdoor data set, the model that offers the best results uses the pretrained convolutional neural network MobileNet v.2 with the Adam optimiser, which gives not only better accuracy at 89.7\% but is also 4 times faster than the ResNet v.2 (82.8\%) with the same optimiser. Trying Adagrad as the optimiser for MobileNet v.2 the accuracy obtained is 83.3\%, so the model chosen for the outdoor data set is MobileNet v.2 with Adam optimiser with the parameters obtained from the hyperparameter tuner. 
 
 The images are transformed into 224 x 224 pixels, to match with MobileNet requirements. The drop rate is of 0.1 and the learning rate is 10-5 as provided by the Keras tuner algorithm. The dense layer has 1280 nodes and 16,653 trainable parameters. 
@@ -205,13 +207,19 @@ The model is then trained for ten epochs before fine tuning. The accuracy obtain
 \label{fig}
 \end{figure}
 
+%\begin{figure}[htbp]
+%\centerline{\includegraphics[width=8.5cm]{ModelOutdoorsMobileNetOtherMetricschart.png}}
+%\caption{For model trained on the augmented Plant Doc outdoor data with transfer learning using the pretrained MobileNet V2 CNN with fine tuning and Adam optimiser training and validation precision are plotted against epoch number in the upper panel. In the lower panel the training and validation recall are plotted against epoch number}
+%\label{fig}
+%\end{figure}
+
+Similar behaviour can be observed using the metrics precision and recall, when around epoch 13 the validation and training subsets provide similar values.
+ 
 \begin{figure}[htbp]
-\centerline{\includegraphics[width=8.5cm]{ModelOutdoorsMobileNetOtherMetricschart.png}}
-\caption{For model trained on the augmented Plant Doc outdoor data with transfer learning using the pretrained MobileNet V2 CNN with fine tuning and Adam optimiser training and validation precision are plotted against epoch number in the upper panel. In the lower panel the training and validation recall are plotted against epoch number}
+\centerline{\includegraphics[width=8.5cm]{ModelOutdoorsMobileNet.png}}
+\caption{MobileNet Indoor model schema.}
 \label{fig}
 \end{figure}
-
-Similar behaviour can be observed using the metrics precision and recall, when around epoch 13 the validation and training subsets provide similar values. 
 
 \subsection{Combined data model}
 
@@ -224,22 +232,102 @@ Using the best model from the hyperparameter tunning phase, it is trained for 10
 \label{fig}
 \end{figure}
 
-\begin{figure}[htbp]
-\centerline{\includegraphics[width=8.5cm]{ModelCombinePrecisionRecall.png}}
-\caption{Model MobileNet v.2 with Adam Optimizer Indoor dataset for Precision and Recall.}
-\label{fig}
-\end{figure}
+%\begin{figure}[htbp]
+%\centerline{\includegraphics[width=8.5cm]{ModelCombinePrecisionRecall.png}}
+%\caption{Model MobileNet v.2 with Adam Optimizer Indoor dataset for Precision and Recall.}
+%\label{fig}
+%\end{figure}
 
 After the first training phase is over, some of the layers of the convolutional part are made trainable, in this case 100 of them are kept frozen and 56 are deemed trainable, bringing the number of trainable parameters up to 1,878,093. During the fine-tuning phase, a great improvement can be observed in all metrics analyzed, up to the 14 epochs when the results of the validation subset go under the training ones. 
+
+\subsection{Indoor Segmented dataset}
+The performance of models trained with segmented images and the original unsegmented version of the same images was compared. For the PlantVillage indoor laboratory dataset a model was trained on the original unsegmented version of the images using transfer learning with Inception-ResNet-v2. The model was trained for ten epochs before fine tuning. The test accuracy obtained was 94.38\%. The model was trained for another ten epochs with fine tuning. The test accuracy obtained was 98.37\%. Another model was trained on the segmented version of the same images using transfer learning with Inception-ResNet-v2. The model was trained for ten epochs before fine tuning. The test accuracy obtained was 92.50\%. The model was trained for another ten epochs with fine tuning. The test accuracy obtained was 96.88\%. The model trained on the original unsegmented data gave better test accuracy. In [4] for the PlantVillage dataset experiments are run on the segmented leaves. Segmentation removes any background information. The authors use AlexNet and GoogLeNet for transfer learning. In their experiments models trained with segmented images are found to give worse performance than those trained with the original unsegmented images. While we are using a pretrained model for transfer learning which is different from the pretrained models in their work our results are consistent with models trained on the original unsegmented images giving better performance. It is possible that some inherent bias is introduced into the dataset due to the background information.  \ 
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=8.5cm]{ModelIndoorsResNetEpochsSegmentedAccuracychart.png}}
+\caption{Model InceptionResNet v.2 with Adam Optimizer Indoor Segmented dataset for Precision and Recall.}
+\label{fig}
+\end{figure}
+ 
 
 \section{Results and Evaluation}
 Here you should discuss how you used your methodology to answer the question.  How can you determine if your approach is good?  If you have to parameterise part of your approach, how have you done that, and why were these choices made?  What impacts can different parameterisations have  on  your  results?   You  should  also  discuss  the  results  in  detail  and discuss their impact and implications.  What do they show or not show? ”. \
 
-How effective the models are in achieving the business objectives is assessed in the CRISP-DM evaluation phase. The models to evaluate should be Indoors images, Outdoor images with augmented train data and tested on the test data, Indoor and outdoor data combined, model to be tested on both random test subset and on the test outdoor data. Compared results will be then highlighted in the conclusion phase. \
-\begin{equation}
-Sensitivity = \frac{TN}{TN + FP}
-\end{equation}
+How effective the models are in achieving the business objectives is assessed in the CRISP-DM evaluation phase. The models to evaluate should be Indoors images, Outdoor images with augmented train data and tested on the test data, Indoor and outdoor data combined, model to be tested on both random test subset and on the test outdoor data. Compared results will be then highlighted in the conclusion 
 Also in this step a decision is made to either proceed to deployment or iterate further.  
+
+\begin{table}[htbp]
+\caption{Data Sets used}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Classes}&\multicolumn{4}{|c|}{\textbf{Data sets}} \\
+\cline{2-5} 
+\textbf{Ojbective} & \textbf{\textit{Indoor}}& \textbf{\textit{Outdoor}}& \textbf{\textit{O.Augmented}} & \textbf{\textit{Combined}} \\
+\hline
+apple scab &630&87&1307&1937 \\
+\hline
+apple healthy &275&89&1392&1667\\
+\hline
+apple rust &1645&91&1325&2970\\
+\hline
+tomato mold &952&91&1444&2396\\
+\hline
+\multicolumn{5}{l}{$^{\mathrm{a}}$Original Data set classes and values.}
+\end{tabular}
+\label{tab1}
+\end{center}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Data Sets used}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Classes}&\multicolumn{4}{|c|}{\textbf{Data sets}} \\
+\cline{2-5} 
+\textbf{Ojbective} & \textbf{\textit{Indoor}}& \textbf{\textit{Outdoor}}& \textbf{\textit{O.Augmented}} & \textbf{\textit{Combined}} \\
+\hline
+apple scab &630&87&1307&1937 \\
+\hline
+apple healthy &275&89&1392&1667\\
+\hline
+apple rust &1645&91&1325&2970\\
+\hline
+tomato mold &952&91&1444&2396\\
+\hline
+\multicolumn{5}{l}{$^{\mathrm{a}}$Original Data set classes and values.}
+\end{tabular}
+\label{tab1}
+\end{center}
+\end{table}
+
+Included in Table IV for the model trained on the augmented outdoor data with MobileNet and the Adam optimiser for 14 epochs are evaluation metrics obtained by applying the model to the outdoor test set and the indoor test set. The training accuracy and validation accuracy values for epoch 14 were 91.46\% and 91.28\% respectively. After epoch 14 the model starts to overfit the training data. From Table x it can be seen that the accuracy obtained on the indoor test set is 23.27\%, higher than the accuracy obtained on the outdoor test set 9.17\%. The precision, recall and AUC values for the indoor test set at 0.2779, 0.1945 and 0.6798 respectively are also higher than the precision, recall and AUC values for the outdoor test set at  0.1087, 0.0833 and 0.5952 respectively. 
+
+
+\begin{table}[htbp]
+\caption{Outdoor Model}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Metrics}&\multicolumn{2}{|c|}{\textbf{Outdoor Model}} \\
+\cline{2-3} 
+\textbf{Used} & \textbf{\textit{Indoor}}& \textbf{\textit{Outdoor}} \\
+\hline
+loss  &4.92 &3.70  \\
+\hline
+accuracy  &0.0917 &0.2327 \\
+\hline
+precision  &0.1087 &0.2779 \\
+\hline
+recall  &0.0833 &0.1945 \\
+\hline
+auc  &0.5952 &0.6798  \\
+\hline
+\multicolumn{3}{l}{$^{\mathrm{a}}$Original Data set classes and values.}
+\end{tabular}
+\label{tab1}
+\end{center}
+\end{table}
 
 \section{Conclusion and Future Work}
 The CRISP-DM final phase is deployment where the results of the data mining study are communicated to end users. This purpose is served by this report. The objectives of this study were met through the results. Knowledge discovery is the aim of CRISP-DM. This study accomplished this aim in a variety of ways. 

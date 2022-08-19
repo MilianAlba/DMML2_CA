@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="charts file, change the csv source to get the charts">
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="combined model finalized,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CombinedModelBuilt.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CombinedModelBuilt.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA/Charts.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/data/SEPOL/03.ThirdSem/DMML2/Project/DMML2_CA/Charts.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -167,7 +166,8 @@
       <workItem from="1660722190288" duration="12000" />
       <workItem from="1660809383630" duration="3681000" />
       <workItem from="1660857556469" duration="2641000" />
-      <workItem from="1660901851001" duration="4730000" />
+      <workItem from="1660901851001" duration="4860000" />
+      <workItem from="1660907662429" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>
@@ -421,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660905526981</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="combined model finalized,">
+      <created>1660907050837</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1660907050837</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +469,8 @@
     <MESSAGE value="Report in Latex" />
     <MESSAGE value="Report updated" />
     <MESSAGE value="charts file, change the csv source to get the charts" />
-    <option name="LAST_COMMIT_MESSAGE" value="charts file, change the csv source to get the charts" />
+    <MESSAGE value="combined model finalized," />
+    <option name="LAST_COMMIT_MESSAGE" value="combined model finalized," />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

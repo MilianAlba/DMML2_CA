@@ -1,0 +1,2 @@
+Combined_train_validate.tar.gz filter=lfs diff=lfs merge=lfs -text
+testindoors.tar.gz filter=lfs diff=lfs merge=lfs -text

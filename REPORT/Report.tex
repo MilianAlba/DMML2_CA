@@ -83,7 +83,7 @@ This report is structured as follows: the Related Work section provides a review
 \section{Related work}
 1 page with citations into 20 or more works  
 
-This should not only summarise related work, but also critically evaluate the strengths and weaknesses of the cited works with respect to the topic under study, i.e. how well/badly does the cited work answer your question(s), what aspects are useful to consider, what are the limitations? You should also discuss any foundational papers that either substantiate your study design or upon which you are building. ne part of the entire proceedings, and not as an independent document. Please do not revise any of the current designations\cite{rezaei2021prediction}. 
+This should not only summarise related work, but also critically evaluate the strengths and weaknesses of the cited works with respect to the topic under study, i.e. how well/badly does the cited work answer your question(s), what aspects are useful to consider, what are the limitations? You should also discuss any foundational papers that either substantiate your study design or upon which you are building. ne part of the entire proceedings, and not as an independent document. Please do not revise any of the current designations. 
 
 \section{Methodology }
 
@@ -213,7 +213,7 @@ The model is then trained for ten epochs before fine tuning. The accuracy obtain
 
 Similar behaviour can be observed using the metrics precision and recall, when around epoch 13 the validation and training subsets provide similar values. 
 
-\subsubsection{Combined data model}
+\subsection{Combined data model}
 
 The same methodology is applied to a dataset that combines the pictures from the outdoor and indoor data sets. The outdoor data includes the augmented added items in the training subset. From the data set thus conformed a train data set of 33394 images is extracted and further divided into 30052 for the training side and 3339 for the validation. Using these images to compare the different model proposed, InceptionResNetV2 with Adam as optimizer, renders the best accuracy at 6 epochs for the optimized values of 0.1 drop and 0.00001 learning rate of 85.56\%. MobileNet with Adagrad  for the same number of epochs and optimized parameters, Learning Rate, 0.01 and drop, 0.1 renders better accuracy at 87.24\%. The best accuracy is obtained using the MobileNet with Adam, with the optimised values of 0.0001 for the learning rate and 0.2 for the drop at 90.35\%. It is also worth to acknowledge that the MobileNet instances were 4 times faster than the InceptionResNetV2, which would make them more compelling even with similar results. \
 
@@ -236,13 +236,15 @@ After the first training phase is over, some of the layers of the convolutional 
 Here you should discuss how you used your methodology to answer the question.  How can you determine if your approach is good?  If you have to parameterise part of your approach, how have you done that, and why were these choices made?  What impacts can different parameterisations have  on  your  results?   You  should  also  discuss  the  results  in  detail  and discuss their impact and implications.  What do they show or not show? ”. \
 
 How effective the models are in achieving the business objectives is assessed in the CRISP-DM evaluation phase. The models to evaluate should be Indoors images, Outdoor images with augmented train data and tested on the test data, Indoor and outdoor data combined, model to be tested on both random test subset and on the test outdoor data. Compared results will be then highlighted in the conclusion phase. \
-
+\begin{equation}
+Sensitivity = \frac{TN}{TN + FP}
+\end{equation}
 Also in this step a decision is made to either proceed to deployment or iterate further.  
 
 \section{Conclusion and Future Work}
 The CRISP-DM final phase is deployment where the results of the data mining study are communicated to end users. This purpose is served by this report. The objectives of this study were met through the results. Knowledge discovery is the aim of CRISP-DM. This study accomplished this aim in a variety of ways. 
 
-The lack of availability of images of leaves of diseased plants obtained outdoors in real world environments limited this study. Larger datasets of outdoor images would be of benefit for leaf disease classification. Also, in this study only three plant species were considered. In future work classification of plant disease from images could be extended to include additional plant species. 
+The lack of availability of images of leaves of diseased plants obtained outdoors in real world environments limited this study. Larger datasets of outdoor images would be of benefit for leaf disease classification. Also, in this study only three plant species were considered. In future work classification of plant disease from images could be extended to include additional plant species.
 
 This study could be extended in a number of ways including through transfer learning using other pretrained CNN models to carry out image classification. In addition to the data augmentation techniques applied in this study other techniques could also be used including creating synthetic images of plant leaves using conditional generative adversarial networks. The Plant Doc outdoor images of leaves could be segmented and models, trained using these segmented images, compared against those trained using coloured versions of those images. We could extend this study from classifying the disease from the image of the leaf to grading how diseased the leaf is. In addition, we could compare the classification performance of the CNN models with that of other machine learning techniques. Our model could also be included as part of a pesticide prescription system for plant diseases. We could also compare the performance of a CNN model trained from scratch for classifying plant disease from leaf images against that of a CNN model trained by transfer learning. Our model could be used as part of a system to classify plant disease from images obtained using unmanned aerial vehicles. We could develop a lightweight model for devices with limited resources that still provides accurate performance in classifying plant disease from leaf images. The effect of varying the number of images used to train the models on the accuracy of classification could be investigated in future work.         
 

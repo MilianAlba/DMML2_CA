@@ -21,12 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{rezaei2021prediction}
-Z.~Rezaei and H.~Ebrahimpour-Komleh, ``Prediction and detection of car
-  accidents in video by deep learning,'' in \emph{2021 5th International
-  Conference on Pattern Recognition and Image Analysis (IPRIA)}.\hskip 1em plus
-  0.5em minus 0.4em\relax IEEE, 2021, pp. 1--9.
-
 \bibitem{kaggledatasetPlantville}
 \BIBentryALTinterwordspacing
 A.~Ali. (2022) Plantvillage dataset in kaggle. [Online]. Available:

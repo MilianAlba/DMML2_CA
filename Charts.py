@@ -61,3 +61,43 @@ plt.title('Training and Validation Recall')
 plt.xlabel('epoch')
 plt.ylabel('Recall')
 plt.show()
+
+results = pd.read_csv('testresults.csv')
+results['Value'] =pd.Series(results['Value'], dtype='Float64')
+resultsACC = results[results['Metric']=='accuracy ']
+raind = resultsACC[results['Test set']=='indoor']
+raout = resultsACC[results['Test set']=='outdoor']
+models = list(raind['Model'])
+indAcc= list(raind['Value'])
+OutAcc= list(raout['Value'])
+
+N = 3
+ind = np.arange(N)
+width = 0.35
+plt.bar(ind, indAcc, width, label='Indoor Test', color='blue')
+plt.bar(ind + width, OutAcc, width,
+        label='Outdoor Test', color='green')
+
+plt.ylabel('Accuracy')
+plt.title('Accuracy by Model and Test subset')
+
+plt.xticks(ind + width / 2, models)
+plt.legend(loc='best')
+plt.show()
+
+resultsprec = results[results['Metric']=='precision ']
+pind = resultsprec[results['Test set']=='indoor']
+paout = resultsprec[results['Test set']=='outdoor']
+indPrec= list(pind['Value'])
+OutPrec= list(paout['Value'])
+
+plt.bar(ind, indPrec, width, label='Indoor Test', color='grey')
+plt.bar(ind + OutPrec, OutAcc, width,
+        label='Outdoor Test', color='cyan')
+
+plt.ylabel('Precision')
+plt.title('Precision by Model and Test subset')
+
+plt.xticks(ind + width / 2, models)
+plt.legend(loc='best')
+plt.show()

@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-ht_df = pd.read_csv('resultsIndoorModel.csv')
+ht_df = pd.read_csv('histtotalCombinedModel.csv')
 acc = ht_df['accuracy']
 val_acc = ht_df['val_accuracy']
 
@@ -88,6 +88,7 @@ plt.show()
 resultsprec = results[results['Metric']=='precision ']
 pind = resultsprec[results['Test set']=='indoor']
 paout = resultsprec[results['Test set']=='outdoor']
+model2 = list(pind['Model'])
 indPrec= list(pind['Value'])
 OutPrec= list(paout['Value'])
 
@@ -98,6 +99,6 @@ plt.bar(ind + OutPrec, OutAcc, width,
 plt.ylabel('Precision')
 plt.title('Precision by Model and Test subset')
 
-plt.xticks(ind + width / 2, models)
+plt.xticks(ind + width / 2, model2)
 plt.legend(loc='best')
 plt.show()

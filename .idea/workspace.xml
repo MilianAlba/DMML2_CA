@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="combined model finalized,">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CombinedModelBuilt.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CombinedModelBuilt.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPtuningCombinedandmodel" beforeDir="false" afterPath="$PROJECT_DIR$/HPtuningCombinedandmodel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REPORT/Report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REPORT/Report.log" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REPORT/Report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REPORT/Report.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REPORT/Report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.tex" afterDir="false" />
-    </list>
+    <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="indoor model finalized," />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +166,7 @@
       <workItem from="1660857556469" duration="2641000" />
       <workItem from="1660901851001" duration="4860000" />
       <workItem from="1660907662429" duration="24000" />
-      <workItem from="1660983160944" duration="1522000" />
+      <workItem from="1660983160944" duration="1661000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>
@@ -436,7 +427,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660907050837</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="combined model finalized,">
+      <created>1660985836695</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1660985836695</updated>
+    </task>
+    <task id="LOCAL-00039" summary="indoor model finalized,">
+      <created>1660985949073</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1660985949073</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +483,8 @@
     <MESSAGE value="Report updated" />
     <MESSAGE value="charts file, change the csv source to get the charts" />
     <MESSAGE value="combined model finalized," />
-    <option name="LAST_COMMIT_MESSAGE" value="combined model finalized," />
+    <MESSAGE value="indoor model finalized," />
+    <option name="LAST_COMMIT_MESSAGE" value="indoor model finalized," />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

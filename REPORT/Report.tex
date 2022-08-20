@@ -172,7 +172,7 @@ Applying the Hyperparameter tuning to the indoor data set, the model that offers
 
 The images are transformed into 224 x 224 pixels, to match with MobileNet requirements. The drop rate is of 0.2 and the learning rate 0.0001 as provided by the Keras tuner algorithm. The dense layer has 1280 nodes and 16,653 trainable parameters,the ones after the Dense layer as show in figure 2.
 \begin{figure}[htbp]
-\centerline{\includegraphics[width=8.5cm]{ModelOutdoorsMobileNet.png}}
+\centerline{\includegraphics[width=8.5cm]{ModelIndoorsMobileNet.png}}
 \caption{MobileNet Indoor model schema.}
 \label{fig}
 \end{figure}
@@ -216,8 +216,8 @@ The model is then trained for ten epochs before fine tuning. The accuracy obtain
 Similar behaviour can be observed using the metrics precision and recall, when around epoch 13 the validation and training subsets provide similar values.
  
 \begin{figure}[htbp]
-\centerline{\includegraphics[width=8.5cm]{ModelOutdoorsMobileNet.png}}
-\caption{MobileNet Indoor model schema.}
+\centerline{\includegraphics[width=8.5cm]{ModelIndoorsResNet.png}}
+\caption{InceptionResNetv.2 Indoor Segmented model schema.}
 \label{fig}
 \end{figure}
 

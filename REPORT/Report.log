@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.7.26)  20 AUG 2022 10:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.7.26)  20 AUG 2022 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -353,12 +353,12 @@ Overfull \hbox (3.00623pt too wide) in paragraph at lines 114--149
  []
 
 [2 <./images//CRISP_DM_no deployment.png>]
-<./images//ModelOutdoorsMobileNet.png, id=15, 285.7074pt x 160.4394pt>
-File: ./images//ModelOutdoorsMobileNet.png Graphic file (type png)
-<use ./images//ModelOutdoorsMobileNet.png>
-Package pdftex.def Info: ./images//ModelOutdoorsMobileNet.png  used on input li
-ne 175.
-(pdftex.def)             Requested size: 241.84842pt x 135.81107pt.
+<./images//ModelIndoorsMobileNet.png, id=15, 158.5122pt x 91.542pt>
+File: ./images//ModelIndoorsMobileNet.png Graphic file (type png)
+<use ./images//ModelIndoorsMobileNet.png>
+Package pdftex.def Info: ./images//ModelIndoorsMobileNet.png  used on input lin
+e 175.
+(pdftex.def)             Requested size: 241.84842pt x 139.67886pt.
 <./images//ModelIndoorsMobileNetEpochsAccuracychart.png, id=16, 118.7637pt x 11
 8.2819pt>
 File: ./images//ModelIndoorsMobileNetEpochsAccuracychart.png Graphic file (type
@@ -367,7 +367,7 @@ File: ./images//ModelIndoorsMobileNetEpochsAccuracychart.png Graphic file (type
 Package pdftex.def Info: ./images//ModelIndoorsMobileNetEpochsAccuracychart.png
   used on input line 182.
 (pdftex.def)             Requested size: 241.84842pt x 240.89299pt.
- [3 <./images//ModelOutdoorsMobileNet.png>]
+ [3 <./images//ModelIndoorsMobileNet.png>]
 <./images//ModelOutdoorsMobileNetEpochsAccuracychart.png, id=20, 509.905pt x 49
 7.86pt>
 File: ./images//ModelOutdoorsMobileNetEpochsAccuracychart.png Graphic file (typ
@@ -376,20 +376,21 @@ e png)
 Package pdftex.def Info: ./images//ModelOutdoorsMobileNetEpochsAccuracychart.pn
 g  used on input line 205.
 (pdftex.def)             Requested size: 241.84842pt x 236.1365pt.
-File: ./images//ModelOutdoorsMobileNet.png Graphic file (type png)
-<use ./images//ModelOutdoorsMobileNet.png>
-Package pdftex.def Info: ./images//ModelOutdoorsMobileNet.png  used on input li
-ne 219.
-(pdftex.def)             Requested size: 241.84842pt x 135.81107pt.
+<./images//ModelIndoorsResNet.png, id=22, 158.2713pt x 93.2283pt>
+File: ./images//ModelIndoorsResNet.png Graphic file (type png)
+<use ./images//ModelIndoorsResNet.png>
+Package pdftex.def Info: ./images//ModelIndoorsResNet.png  used on input line 2
+19.
+(pdftex.def)             Requested size: 241.84842pt x 142.46243pt.
  [4 <./images//ModelIndoorsMobileNetEpochsAccuracychart.png> <./images//ModelOu
-tdoorsMobileNetEpochsAccuracychart.png>]
-<./images//ModelCombineAccCEntropy.png, id=26, 135.3858pt x 129.6042pt>
+tdoorsMobileNetEpochsAccuracychart.png> <./images//ModelIndoorsResNet.png>]
+<./images//ModelCombineAccCEntropy.png, id=27, 135.3858pt x 129.6042pt>
 File: ./images//ModelCombineAccCEntropy.png Graphic file (type png)
 <use ./images//ModelCombineAccCEntropy.png>
 Package pdftex.def Info: ./images//ModelCombineAccCEntropy.png  used on input l
 ine 230.
 (pdftex.def)             Requested size: 241.84842pt x 231.53717pt.
-<./images//ModelIndoorsResNetEpochsSegmentedAccuracychart.png, id=27, 516.93124
+<./images//ModelIndoorsResNetEpochsSegmentedAccuracychart.png, id=28, 516.93124
 pt x 497.86pt>
 File: ./images//ModelIndoorsResNetEpochsSegmentedAccuracychart.png Graphic file
  (type png)
@@ -398,8 +399,7 @@ Package pdftex.def Info: ./images//ModelIndoorsResNetEpochsSegmentedAccuracycha
 rt.png  used on input line 246.
 (pdftex.def)             Requested size: 241.84842pt x 232.9231pt.
  [5 <./images//ModelCombineAccCEntropy.png> <./images//ModelIndoorsResNetEpochs
-SegmentedAccuracychart.png>]
-[6] (./Report.bbl)
+SegmentedAccuracychart.png>] [6] (./Report.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -419,10 +419,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4001 strings out of 481134
- 59373 string characters out of 5913146
+ 4007 strings out of 481134
+ 59568 string characters out of 5913146
  357352 words of memory out of 5000000
- 20911 multiletter control sequences out of 15000+600000
+ 20916 multiletter control sequences out of 15000+600000
  442973 words of font info for 101 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  68i,12n,74p,1583b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -431,10 +431,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (7 pages, 442085 bytes).
+Output written on Report.pdf (7 pages, 442311 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

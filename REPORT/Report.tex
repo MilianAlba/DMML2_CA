@@ -256,52 +256,31 @@ How effective the models are in achieving the business objectives is assessed in
 Also in this step a decision is made to either proceed to deployment or iterate further.  
 
 \begin{table}[htbp]
-\caption{Data Sets used}
+\caption{Indoor Model}
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
-\textbf{Classes}&\multicolumn{4}{|c|}{\textbf{Data sets}} \\
-\cline{2-5} 
-\textbf{Ojbective} & \textbf{\textit{Indoor}}& \textbf{\textit{Outdoor}}& \textbf{\textit{O.Augmented}} & \textbf{\textit{Combined}} \\
+\textbf{Metrics}&\multicolumn{2}{|c|}{\textbf{Indoor Model}} \\
+\cline{2-3} 
+\textbf{Used} & \textbf{\textit{Indoor}}& \textbf{\textit{Outdoor}} \\
 \hline
-apple scab &630&87&1307&1937 \\
+loss &0.058&9.788  \\
 \hline
-apple healthy &275&89&1392&1667\\
+accuracy &0.981&0.075 \\
 \hline
-apple rust &1645&91&1325&2970\\
+precision &0.982&0.083 \\
 \hline
-tomato mold &952&91&1444&2396\\
+recall &0.978&0.075 \\
 \hline
-\multicolumn{5}{l}{$^{\mathrm{a}}$Original Data set classes and values.}
+auc &0.999&0.537  \\
+\hline
+\multicolumn{3}{l}{$^{\mathrm{a}}$Over Indoor test and Outdoor test subsets.}
 \end{tabular}
 \label{tab1}
 \end{center}
 \end{table}
 
-\begin{table}[htbp]
-\caption{Data Sets used}
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-\textbf{Classes}&\multicolumn{4}{|c|}{\textbf{Data sets}} \\
-\cline{2-5} 
-\textbf{Ojbective} & \textbf{\textit{Indoor}}& \textbf{\textit{Outdoor}}& \textbf{\textit{O.Augmented}} & \textbf{\textit{Combined}} \\
-\hline
-apple scab &630&87&1307&1937 \\
-\hline
-apple healthy &275&89&1392&1667\\
-\hline
-apple rust &1645&91&1325&2970\\
-\hline
-tomato mold &952&91&1444&2396\\
-\hline
-\multicolumn{5}{l}{$^{\mathrm{a}}$Original Data set classes and values.}
-\end{tabular}
-\label{tab1}
-\end{center}
-\end{table}
-
-Included in Table IV for the model trained on the augmented outdoor data with MobileNet and the Adam optimiser for 14 epochs are evaluation metrics obtained by applying the model to the outdoor test set and the indoor test set. The training accuracy and validation accuracy values for epoch 14 were 91.46\% and 91.28\% respectively. After epoch 14 the model starts to overfit the training data. From Table x it can be seen that the accuracy obtained on the indoor test set is 23.27\%, higher than the accuracy obtained on the outdoor test set 9.17\%. The precision, recall and AUC values for the indoor test set at 0.2779, 0.1945 and 0.6798 respectively are also higher than the precision, recall and AUC values for the outdoor test set at  0.1087, 0.0833 and 0.5952 respectively. 
+Included in Table III for the model trained on the augmented outdoor data with MobileNet and the Adam optimiser for 14 epochs are evaluation metrics obtained by applying the model to the outdoor test set and the indoor test set. The training accuracy and validation accuracy values for epoch 14 were 91.46\% and 91.28\% respectively. After epoch 14 the model starts to overfit the training data. From Table x it can be seen that the accuracy obtained on the indoor test set is 23.27\%, higher than the accuracy obtained on the outdoor test set 9.17\%. The precision, recall and AUC values for the indoor test set at 0.2779, 0.1945 and 0.6798 respectively are also higher than the precision, recall and AUC values for the outdoor test set at  0.1087, 0.0833 and 0.5952 respectively. 
 
 
 \begin{table}[htbp]
@@ -323,11 +302,39 @@ recall  &0.0833 &0.1945 \\
 \hline
 auc  &0.5952 &0.6798  \\
 \hline
-\multicolumn{3}{l}{$^{\mathrm{a}}$Original Data set classes and values.}
+\multicolumn{3}{l}{$^{\mathrm{a}}$For the model trained on the augmented outdoor data.}
 \end{tabular}
 \label{tab1}
 \end{center}
 \end{table}
+
+The model has been trained for 19 epochs, 10 with the training layer being only the dense layer and a learning rate of 0.001 and for 9 epochs on the fine-tuning phase, meaning that has 56 training layers, the ones in the dense layer plus 54 from the convolutional layers. The model produced is applied then to both testing subsets, one from the indoor model that contains 4026 samples and another from the outdoor subset  that contains 120 items. The results are shown in Table IV.
+\begin{table}[htbp]
+\caption{Combined Model}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Metrics}&\multicolumn{2}{|c|}{\textbf{Combined Model}} \\
+\cline{2-3} 
+\textbf{Used} & \textbf{\textit{Indoor}}& \textbf{\textit{Outdoor}} \\
+\hline
+loss  &9.024 &0.066   \\
+\hline
+accuracy  &0.092 &0.98  \\
+\hline
+precision  &0.098 &0.979  \\
+\hline
+recall  &0.092 &0.973  \\
+\hline
+auc  &0.542 &0.999   \\
+\hline
+\multicolumn{3}{l}{$^{\mathrm{a}}$Over Indoor test and Outdoor test subsets..}
+\end{tabular}
+\label{tab1}
+\end{center}
+\end{table}
+
+There is a superior performance when the test in conducted over the indoor test subset, at 98\% virtually the same precision and a recall of 97.3\%. The area under the curve is almost total at 99.9\%. Comparing this outstanding performance with the performance achieved with the outdoor test subset, with accuracy and recall at 9.2\%, precision 9.8\%, the area under the curve at slightly over the half bring to two conclusions. First, that the performance in outdoor subset is basically what it can be achieved randomly, taking into consideration that there are 13 classes of. Second, that the performance is not improving by including more images in the training set. 
 
 \section{Conclusion and Future Work}
 The CRISP-DM final phase is deployment where the results of the data mining study are communicated to end users. This purpose is served by this report. The objectives of this study were met through the results. Knowledge discovery is the aim of CRISP-DM. This study accomplished this aim in a variety of ways. 

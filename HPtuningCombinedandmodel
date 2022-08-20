@@ -91,23 +91,15 @@ Non-trainable params: 396,544
 ________________________________________________________________
 
 Results Indoor testing
-loss : 0.084
-tp : 783.0
-fp : 19.0
-tn : 9641.0
-fn : 22.0
-accuracy : 0.973
-precision : 0.976
-recall : 0.973
-auc : 0.998
+loss : 0.066
+accuracy : 0.98
+precision : 0.98
+recall : 0.979
+auc : 0.999
 
 Results Outdoor testing
-loss : 7.71
-tp : 11.0
-fp : 99.0
-tn : 1341.0
-fn : 109.0
+loss : 9.024
 accuracy : 0.092
-precision : 0.1
+precision : 0.098
 recall : 0.092
-auc : 0.558
+auc : 0.542

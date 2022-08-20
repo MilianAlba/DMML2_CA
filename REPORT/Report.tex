@@ -202,7 +202,7 @@ The images are transformed into 224 x 224 pixels, to match with MobileNet requir
 
 The model is then trained for ten epochs before fine tuning. The accuracy obtained was 40.9\% for the training subset and 45.2\% for the validation subset as shown in Figure x. The model was trained for another ten epochs for fine tuning. For fine tuning a series of modifications were introduced. The learning rate was reduced by a factor of 10. As the model we are training is much larger we reduce the learning rate. Our model may overfit quickly if at this stage we don’t adjust the learning rate. The layers from 100 upwards were used in fine-tuning the model. For this model the total number of parameters was again 2,274,637, but in this case 1,878,093 of these were trainable. In the fine-tuning epochs, a big increase on the accuracy is observed, where on the epoch 13 the accuracy of the validation and the one from the training subset are similar. The best validation accuracy obtained was 97.9\%.
 \begin{figure}[htbp]
-\centerline{\includegraphics[width=8.5cm]{ModelOutdoorsMobileNetEpochsAccuracychart.png}}
+\centerline{\includegraphics[width=8.5cm]{ModelOutdoorsMobileNetEpochsAccuracychart_new.png}}
 \caption{For model trained on the augmented Plant Doc outdoor data with transfer learning using the pretrained MobileNet V2 CNN with fine tuning and Adam optimiser training and validation accuracy are plotted against epoch number in the upper panel. In the lower panel the training and validation loss are plotted against epoch number.}
 \label{fig}
 \end{figure}
@@ -243,7 +243,7 @@ After the first training phase is over, some of the layers of the convolutional 
 \subsection{Indoor Segmented dataset}
 The performance of models trained with segmented images and the original unsegmented version of the same images was compared. For the PlantVillage indoor laboratory dataset a model was trained on the original unsegmented version of the images using transfer learning with Inception-ResNet-v2. The model was trained for ten epochs before fine tuning. The test accuracy obtained was 94.38\%. The model was trained for another ten epochs with fine tuning. The test accuracy obtained was 98.37\%. Another model was trained on the segmented version of the same images using transfer learning with Inception-ResNet-v2. The model was trained for ten epochs before fine tuning. The test accuracy obtained was 92.50\%. The model was trained for another ten epochs with fine tuning. The test accuracy obtained was 96.88\%. The model trained on the original unsegmented data gave better test accuracy. In [4] for the PlantVillage dataset experiments are run on the segmented leaves. Segmentation removes any background information. The authors use AlexNet and GoogLeNet for transfer learning. In their experiments models trained with segmented images are found to give worse performance than those trained with the original unsegmented images. While we are using a pretrained model for transfer learning which is different from the pretrained models in their work our results are consistent with models trained on the original unsegmented images giving better performance. It is possible that some inherent bias is introduced into the dataset due to the background information.  \ 
 \begin{figure}[htbp]
-\centerline{\includegraphics[width=8.5cm]{ModelIndoorsResNetEpochsSegmentedAccuracychart.png}}
+\centerline{\includegraphics[width=8.5cm]{ModelIndoorsResNetEpochsSegmentedAccuracychart_new.png}}
 \caption{Model InceptionResNet v.2 with Adam Optimizer Indoor Segmented dataset for Precision and Recall.}
 \label{fig}
 \end{figure}
@@ -343,6 +343,13 @@ When the results of the 3 models are compared,
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=8.5cm]{resultsPrecAccdifferentTests.png}}
 \caption{Accuracy and Precision for the three models and tested on the indoors and outdoors test subsets.}
+\label{fig}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=8.5cm]{sampleimages.png}}
+\caption{Sample images left belongs to the Outdoor test and the right to the indoor test subset.}
 \label{fig}
 \end{figure}
 

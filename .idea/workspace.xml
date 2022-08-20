@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3034f8-ba29-4541-b4d6-803917705146" name="Changes" comment="changes on the report file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Charts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HPtuningIndoorandmodel" beforeDir="false" afterPath="$PROJECT_DIR$/HPtuningIndoorandmodel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REPORT/Report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/REPORT/Report.log" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/REPORT/Report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/REPORT/Report.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/REPORT/Report.synctex.gz" afterDir="false" />
@@ -177,6 +173,7 @@
       <workItem from="1660907662429" duration="24000" />
       <workItem from="1660983160944" duration="1661000" />
       <workItem from="1660987127353" duration="6080000" />
+      <workItem from="1660997419355" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1658491256272</created>

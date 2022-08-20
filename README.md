@@ -5,7 +5,7 @@ InceptionResNet - Adam
 InceptionResNet - Adagrad
 MobileNet -Adam
 MobileNet -Adagrad
-Best results from each have been made it to the modelling phase,
+Best results from each have made it to the modelling phase,
 IndoorModelbuit
 OutdoorModelbuit
 CombineModelbuilt

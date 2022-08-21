@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.7.26)  21 AUG 2022 14:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.7.26)  21 AUG 2022 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,107 +332,104 @@ e
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] [2] [3]
-<./images//CRISP_DM_no deployment.png, id=16, 183.5658pt x 174.6525pt>
+]
+Underfull \hbox (badness 5274) in paragraph at lines 70--71
+[]\OT1/ptm/m/n/10 The au-thor's re-view in-cluded some ap-proaches us-
+ []
+
+[2]
+<./images//CRISP_DM_no deployment.png, id=13, 183.5658pt x 174.6525pt>
 File: ./images//CRISP_DM_no deployment.png Graphic file (type png)
 <use ./images//CRISP_DM_no deployment.png>
 Package pdftex.def Info: ./images//CRISP_DM_no deployment.png  used on input li
-ne 90.
+ne 84.
 (pdftex.def)             Requested size: 241.84842pt x 230.1076pt.
- [4]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 110
+LaTeX Font Info:    Trying to load font information for U+msa on input line 104
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 110
+LaTeX Font Info:    Trying to load font information for U+msb on input line 104
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (3.00623pt too wide) in paragraph at lines 110--145
+Overfull \hbox (3.00623pt too wide) in paragraph at lines 104--139
  [] 
  []
 
-[5 <./images//CRISP_DM_no deployment.png>]
-<./images//ModelIndoorsMobileNet.png, id=24, 172.9662pt x 97.3236pt>
+[3 <./images//CRISP_DM_no deployment.png>]
+<./images//ModelIndoorsMobileNet.png, id=17, 172.9662pt x 97.3236pt>
 File: ./images//ModelIndoorsMobileNet.png Graphic file (type png)
 <use ./images//ModelIndoorsMobileNet.png>
 Package pdftex.def Info: ./images//ModelIndoorsMobileNet.png  used on input lin
-e 165.
+e 159.
 (pdftex.def)             Requested size: 241.84842pt x 136.09167pt.
-<./images//ModelIndoorsMobileNetEpochsAccuracychart.png, id=25, 118.7637pt x 11
+ [4 <./images//ModelIndoorsMobileNet.png>]
+<./images//ModelIndoorsMobileNetEpochsAccuracychart.png, id=22, 118.7637pt x 11
 8.2819pt>
 File: ./images//ModelIndoorsMobileNetEpochsAccuracychart.png Graphic file (type
  png)
 <use ./images//ModelIndoorsMobileNetEpochsAccuracychart.png>
 Package pdftex.def Info: ./images//ModelIndoorsMobileNetEpochsAccuracychart.png
-  used on input line 172.
+  used on input line 166.
 (pdftex.def)             Requested size: 241.84842pt x 240.89299pt.
-
-Underfull \vbox (badness 3343) has occurred while \output is active []
-
- [6 <./images//ModelIndoorsMobileNet.png>]
-<./images//ModelOutdoorsMobileNetEpochsAccuracychart_new.png, id=29, 498.86375p
+<./images//ModelOutdoorsMobileNetEpochsAccuracychart_new.png, id=23, 498.86375p
 t x 497.86pt>
 File: ./images//ModelOutdoorsMobileNetEpochsAccuracychart_new.png Graphic file 
 (type png)
 <use ./images//ModelOutdoorsMobileNetEpochsAccuracychart_new.png>
 Package pdftex.def Info: ./images//ModelOutdoorsMobileNetEpochsAccuracychart_ne
-w.png  used on input line 191.
+w.png  used on input line 185.
 (pdftex.def)             Requested size: 241.84842pt x 241.36305pt.
-<./images//ModelIndoorsResNet.png, id=31, 166.7028pt x 93.7101pt>
+<./images//ModelIndoorsResNet.png, id=25, 166.7028pt x 93.7101pt>
 File: ./images//ModelIndoorsResNet.png Graphic file (type png)
 <use ./images//ModelIndoorsResNet.png>
 Package pdftex.def Info: ./images//ModelIndoorsResNet.png  used on input line 1
-99.
+93.
 (pdftex.def)             Requested size: 241.84842pt x 135.96338pt.
- [7 <./images//ModelIndoorsMobileNetEpochsAccuracychart.png> <./images//ModelOu
-tdoorsMobileNetEpochsAccuracychart_new.png> <./images//ModelIndoorsResNet.png>]
-<./images//ModelCombineAccCEntropy.png, id=37, 135.3858pt x 129.6042pt>
+ [5 <./images//ModelIndoorsMobileNetEpochsAccuracychart.png> <./images//ModelOu
+tdoorsMobileNetEpochsAccuracychart_new.png>]
+<./images//ModelCombineAccCEntropy.png, id=30, 135.3858pt x 129.6042pt>
 File: ./images//ModelCombineAccCEntropy.png Graphic file (type png)
 <use ./images//ModelCombineAccCEntropy.png>
 Package pdftex.def Info: ./images//ModelCombineAccCEntropy.png  used on input l
-ine 212.
+ine 206.
 (pdftex.def)             Requested size: 241.84842pt x 231.53717pt.
-<./images//ModelIndoorsResNetEpochsSegmentedAccuracychart_new.png, id=38, 505.8
+<./images//ModelIndoorsResNetEpochsSegmentedAccuracychart_new.png, id=31, 505.8
 9pt x 497.86pt>
 File: ./images//ModelIndoorsResNetEpochsSegmentedAccuracychart_new.png Graphic 
 file (type png)
 <use ./images//ModelIndoorsResNetEpochsSegmentedAccuracychart_new.png>
 Package pdftex.def Info: ./images//ModelIndoorsResNetEpochsSegmentedAccuracycha
-rt_new.png  used on input line 226.
+rt_new.png  used on input line 220.
 (pdftex.def)             Requested size: 241.84842pt x 238.0129pt.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-39.
+33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [8 <./images//ModelCombineAccCEntropy.png> <./images//ModelIndoorsResNetEpoch
-sSegmentedAccuracychart_new.png>] [9]
-<./images//resultsPrecAccdifferentTests.png, id=52, 236.8047pt x 101.9007pt>
+) [6 <./images//ModelIndoorsResNet.png> <./images//ModelCombineAccCEntropy.png>
+] [7 <./images//ModelIndoorsResNetEpochsSegmentedAccuracychart_new.png>]
+<./images//resultsPrecAccdifferentTests.png, id=46, 236.8047pt x 101.9007pt>
 File: ./images//resultsPrecAccdifferentTests.png Graphic file (type png)
 <use ./images//resultsPrecAccdifferentTests.png>
 Package pdftex.def Info: ./images//resultsPrecAccdifferentTests.png  used on in
-put line 342.
+put line 336.
 (pdftex.def)             Requested size: 241.84842pt x 104.07414pt.
-<./images//indoor_images.png, id=53, 149.8398pt x 151.2852pt>
+<./images//indoor_images.png, id=47, 149.8398pt x 151.2852pt>
 File: ./images//indoor_images.png Graphic file (type png)
 <use ./images//indoor_images.png>
-Package pdftex.def Info: ./images//indoor_images.png  used on input line 351.
+Package pdftex.def Info: ./images//indoor_images.png  used on input line 345.
 (pdftex.def)             Requested size: 227.62204pt x 229.83353pt.
-<./images//outdoor_images.png, id=54, 714.67pt x 730.73pt>
+<./images//outdoor_images.png, id=48, 714.67pt x 730.73pt>
 File: ./images//outdoor_images.png Graphic file (type png)
 <use ./images//outdoor_images.png>
-Package pdftex.def Info: ./images//outdoor_images.png  used on input line 359.
+Package pdftex.def Info: ./images//outdoor_images.png  used on input line 353.
 (pdftex.def)             Requested size: 227.62204pt x 232.73451pt.
-
-Underfull \vbox (badness 1281) has occurred while \output is active []
-
- [10 <./images//resultsPrecAccdifferentTests.png> <./images/Indoor_images.png> 
-<./images/Outdoor_images.png>] (./Report.bbl)
+ [8 <./images//resultsPrecAccdifferentTests.png> <./images/Indoor_images.png>] 
+(./Report.bbl [9 <./images/Outdoor_images.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -444,7 +441,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[11
+[10
 
 ] (./Report.aux)
 
@@ -452,13 +449,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4027 strings out of 481134
- 60251 string characters out of 5913146
- 361844 words of memory out of 5000000
- 20933 multiletter control sequences out of 15000+600000
+ 4050 strings out of 481134
+ 60643 string characters out of 5913146
+ 359400 words of memory out of 5000000
+ 20956 multiletter control sequences out of 15000+600000
  442973 words of font info for 101 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 68i,12n,74p,2826b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,12n,74p,1658b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -470,10 +467,10 @@ m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (11 pages, 2489308 bytes).
+Output written on Report.pdf (10 pages, 2489559 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

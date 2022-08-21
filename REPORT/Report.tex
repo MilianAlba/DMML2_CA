@@ -241,10 +241,10 @@ To evaluate the performance of the proposed models the metrics to be used are ac
 \begin{equation} Loss = -\sum _{i=1}^{n}y_{i}-\log\hat{y_{i}} \end{equation} 
 because $\hat{y_{i}} $ is one when the event is predicted multiplication provides a 0 value therefore lower values are expected from better models, where the predictions are right. 
 \item[•]Precision calculates the ratio of the true positives by all positives across all classes as this is not a binary problem, it is defined as follows, 
-\begin{equation} Precision= \frac{\sum _{i=1}^{c}T_{pc}}{\sum _{i=1}^{c}(T_{pc}+F _{pc})} \end{equation}  
+\begin{equation} Precision= \frac{\sum _{c=1}^{Classes}TP_{c} }{\sum _{c=1}^{Classes}(TP_{c}+FP_{c})} \end{equation}  
 it is also a value that ranges from 0 to 1 and the strongest model should provide a value closer to 1. 
 \item[•]Recall is the ratio of the true positives in each class by the true positives and false negatives, defined below,  
-\begin{equation} Recall= \frac{\sum _{i=1}^{c}T_{pc}}{\sum _{i=1}^{c}(T_{pc}+F _{nc})} \end{equation}  
+\begin{equation} Recall= \frac{\sum _{c=1}^{Classes}TP_{c}}{\sum _{c=1}^{Classes}(TP_{c}+FN _{c})} \end{equation}  
 A stronger model should show a value closer to 0. 
 \item[•]AUC, the area under receiver operating characteristic (ROC) curve, the ROC plots the True positives rate (in y axis) with the False Positive Rate (in the x axis), intuitively, if the ratios are the same the ROC is the bisectrix of the first quadrant, and the AUC is 0.5, in the best case the True Positive ratios are much better than the false ratios, so the ROC curve bends towards the y axis given a AUC closer to 1. Bette performing models are expected to have an AUC value close to 1.
 \end{itemize}\
